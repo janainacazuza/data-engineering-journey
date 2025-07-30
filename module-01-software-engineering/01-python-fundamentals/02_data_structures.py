@@ -11,3 +11,7 @@ print(f"Longitude:{secret_cordinates[1]}")
 print(f"Weapon type: {weapon_sheet['type']}")
 weapon_sheet["rarity"] = "legendary"
 print(f"Weapon sheets:{weapon_sheet}")
+
+print("\n Weapon Sheet Details:")
+for key, value in weapon_sheet.items():
+    print(f"{key.capitalize()}: {value} ")
